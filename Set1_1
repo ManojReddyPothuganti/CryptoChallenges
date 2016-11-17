@@ -1,0 +1,5 @@
+from binascii import a2b_hex, b2a_base64
+
+//a2b_hex converts hex to binary
+//b2a_base64 converts binary to base 64 
+print b2a_base64(a2b_hex(raw_input()))
